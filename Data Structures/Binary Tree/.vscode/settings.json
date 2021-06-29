@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.cc": "cpp",
+        "iomanip": "cpp",
+        "iostream": "cpp"
+    },
+    "editor.fontSize": 15
+}
