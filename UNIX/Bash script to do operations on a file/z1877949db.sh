@@ -4,6 +4,10 @@
 # Class: CSCI 330
 # Assignment 6
 
+# This is a shell script that will allow its user to create, view, and modify a
+# simple text-based database that contains records about automobiles. The shell script must be implemented
+# with the Bourne shell syntax (use bash).
+
 filename=$1
 fileheader=""
 func=$2

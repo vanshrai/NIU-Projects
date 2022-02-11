@@ -1,10 +1,12 @@
 /* Vansh Rai
-Z1877949
 CSCI 330 
 Assignment 05
 Due Date: 10/23/2020
 I certify that this is my own work and where appropriate an extension
 of the starter code provided for the assignment.*/
+
+// This program involves working fork, pipe, and dup, system calls. 
+// It should also grant some insight into how the shell enables input and output redirection behind the scenes.
 
 #include <iostream>
 #include <iomanip>

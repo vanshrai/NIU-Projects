@@ -1,10 +1,16 @@
 /*********************
-Vansh Rai Z1877949
+Vansh Rai 
 CSCI 330
 Assignment 8
 11/20/2020
 I certify that this is my own work and where appropriate an extension of the starter code provided for the assignment.
 *********************/
+
+// This is a C++ program that implements a basic HTTP server.
+// The program will essentially consist of a loop that goes on forever (until the program is killed), waiting for a
+// client to connect to it. When a client does connect, the server accepts that connection, then calls fork to
+// make a child process, where it handles communication with the newly-connected clietn. The parent process
+// should continue to wait for more connections, accepting them and forking as necessary.
 
 #include <bits/stdc++.h>
 #include <unistd.h>
